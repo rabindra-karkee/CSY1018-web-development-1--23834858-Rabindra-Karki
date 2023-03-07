@@ -1,0 +1,82 @@
+.first{
+    padding: 20px;
+    margin-right: 5px;
+ padding-left: 905px;
+}
+
+.first a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+.menu{
+    color:green;
+}
+body{
+    background-color: rgb(176, 164, 199);
+}
+.connect{
+    margin-top: 30px;  
+}
+
+.link{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.name,.mail{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgb(176, 164, 199);
+    color: green;
+    border-color: green;
+}
+
+.mail{
+    margin-top: 15px;
+    width: 248px;
+}
+
+.text{
+    background-color: rgb(176, 164, 199) ;
+    width: 502px;
+    margin-top: 15px;
+    height: 100px;
+    resize: none;
+    color: green;
+    border-color: green;
+}
+
+.mail::placeholder,.name::placeholder,.text::placeholder{
+    color: green;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.subbut{
+    background-color: rgb(176, 164, 199) ;
+    font-family: serif;
+    color: green;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.subbut:hover{
+    background-color: rgb(156, 153, 162) ;
+}
+
+.imp2{
+    padding-left: 550px;
+}
+
+.line{
+    width: 275px;
+    margin-right: 1500px;
+}
+
+.message{
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+.first{
+    padding: 20px;
+    margin-right: 5px;
+ padding-left: 905px;
+}
+
+.first a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:20px;
+}
+.imp2{
+    display: flex;
+
+}
+
+.menu{
+    color:green;
+}
+
+body{
+    background-color: rgb(176, 164, 199);
+}
+
+.intro:hover{
+   transition: 3s;
+   color: rgb(255, 190, 166);
+}
