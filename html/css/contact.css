@@ -16,8 +16,9 @@
 body{
     background-color: rgb(176, 164, 199);
 }
-.connect{
-    margin-top: 30px;  
+.imp4{
+    margin-top: 30px;
+    display: flex;  
 }
 
 .link{
@@ -69,14 +70,31 @@ body{
 }
 
 .imp2{
-    padding-left: 550px;
+    padding-left: 450px;
+    padding-top: 200px;
 }
 
-.line{
-    width: 275px;
-    margin-right: 1500px;
-}
 
-.message{
+.dm{
     font-size: 30px;
+}
+
+.imp0{
+    display: flex;
+}
+
+.call{
+    position: absolute;
+    padding-top: 20px;
+    display: flex;
+}
+
+.old{
+    position: absolute;
+    padding-top: 80px;
+    display: flex;
+}
+
+.new{
+    padding-top: 200px;
 }
