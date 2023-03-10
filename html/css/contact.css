@@ -14,7 +14,7 @@
     color:green;
 }
 body{
-    background-color: rgb(176, 164, 199);
+    background-color:  rgb(197, 154, 154);
 }
 .imp4{
     margin-top: 30px;
@@ -30,7 +30,7 @@ body{
     border-top: none;
     border-right: none;
     border-left: none;
-    background-color: rgb(176, 164, 199);
+    background-color: rgb(197, 154, 154);
     color: green;
     border-color: green;
 }
@@ -41,7 +41,7 @@ body{
 }
 
 .text{
-    background-color: rgb(176, 164, 199) ;
+    background-color:  rgb(197, 154, 154);
     width: 502px;
     margin-top: 15px;
     height: 100px;
@@ -57,7 +57,7 @@ body{
 }
 
 .subbut{
-    background-color: rgb(176, 164, 199) ;
+    background-color: rgb(197, 154, 154);
     font-family: serif;
     color: green;
     border: none;
@@ -97,4 +97,20 @@ body{
 
 .new{
     padding-top: 200px;
+}
+
+.imp5{
+    padding-top: 100px;
+}
+
+.fb{
+    padding-left: 700px;
+
+}
+
+.media{
+    text-align: center;
+    font-size: 30px;
+    background-color: brown;
+
 }

@@ -1,7 +1,7 @@
 .first{
     padding: 20px;
     margin-right: 5px;
- padding-left: 905px;
+    padding-left: 905px;
 }
 
 .first a{
@@ -19,10 +19,41 @@
 }
 
 body{
-    background-color: rgb(176, 164, 199);
+    background-color: rgb(197, 154, 154);
 }
 
-.intro:hover{
-   transition: 3s;
-   color: rgb(255, 190, 166);
+.head{
+    margin-left: 300px;
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing steps(200) 3s;
+}
+
+@keyframes typing {
+    from { width: 0px }
+    to { width: 1000px }
+  }
+
+.bmp{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.imp4 ,.imp6{
+    display: flex;
+}
+
+.imp5 ,.imp8{
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imp8{
+    text-align: right;
+    padding-right: 50px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
 }
