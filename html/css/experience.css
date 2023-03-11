@@ -19,7 +19,7 @@
 }
 
 body{
-    background-color: rgb(197, 154, 154);
+    background-color:  lightblue;
 }
 
 .head{
@@ -36,24 +36,25 @@ body{
     to { width: 1000px }
   }
 
-.bmp{
+.bmp ,.imp10{
     margin-left: 30px;
     margin-top: 35px;
 }
 
-.imp4 ,.imp6{
+.imp4 ,.imp6 ,.imp9{
     display: flex;
 }
 
-.imp5 ,.imp8{
+.imp5 ,.imp8 ,.imp11{
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
+    padding-top: 50px;
 }
 
 .imp8{
     text-align: right;
-    padding-right: 50px;
-    font-size: 30px;
+    padding-right: 60px;
+    font-size: 20px;
     font-family: 'Inter', sans-serif;
 }

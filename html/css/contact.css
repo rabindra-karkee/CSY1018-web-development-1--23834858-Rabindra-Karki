@@ -14,7 +14,7 @@
     color:green;
 }
 body{
-    background-color:  rgb(197, 154, 154);
+    background-color:  lightblue;
 }
 .imp4{
     margin-top: 30px;
@@ -30,7 +30,7 @@ body{
     border-top: none;
     border-right: none;
     border-left: none;
-    background-color: rgb(197, 154, 154);
+    background-color: lightblue;
     color: green;
     border-color: green;
 }
@@ -41,7 +41,7 @@ body{
 }
 
 .text{
-    background-color:  rgb(197, 154, 154);
+    background-color:   lightblue;
     width: 502px;
     margin-top: 15px;
     height: 100px;
@@ -57,7 +57,7 @@ body{
 }
 
 .subbut{
-    background-color: rgb(197, 154, 154);
+    background-color: lightblue;
     font-family: serif;
     color: green;
     border: none;
@@ -66,7 +66,7 @@ body{
 }
 
 .subbut:hover{
-    background-color: rgb(156, 153, 162) ;
+    background-color:  lightblue;
 }
 
 .imp2{
@@ -111,6 +111,7 @@ body{
 .media{
     text-align: center;
     font-size: 30px;
-    background-color: brown;
+    background-color: whitesmoke;
+    color: rgb(44, 101, 121);
 
 }

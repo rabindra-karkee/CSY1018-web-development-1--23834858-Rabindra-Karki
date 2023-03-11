@@ -1,7 +1,7 @@
 .first{
     padding: 20px;
     margin-right: 5px;
- padding-left: 795px;
+    padding-left: 795px;
 }
 
 .first a{
@@ -23,7 +23,7 @@
     color: rgb(4, 2, 0);
 }
 body{
-    background-color:  rgb(197, 154, 154);
+    background-color:  lightblue;
 }
 
 .intro:hover{

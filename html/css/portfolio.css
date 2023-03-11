@@ -18,15 +18,82 @@
     color:green;
 }
 
-.myname{
-    font-size: 20px;
-    color: rgb(4, 2, 0);
-}
 body{
-    background-color:  rgb(197, 154, 154);
+   background-color:lightblue 
 }
 
-.intro:hover{
-   transition: 3s;
-   color: rgb(255, 190, 166);
+.imp4 ,.imp5 ,.imp6{
+    margin-top: 40px;
+}
+
+.imp5  ,.imp6 ,.imp8 ,.imp9{
+    margin-left: 15px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.imp7 ,.imp9{
+    margin-top: 15px;
+}
+
+.imp4 ,.imp7{
+    margin-left: 27px;
+}
+
+.imp7{
+    display:absolute;
+}
+
+.imp5{
+    margin-left: 23px;
+}
+
+span1{
+    font-size: 30px;
+    color: red;
+}
+
+span2{
+    font-size: 32px;
+    color: orange;
+}
+
+span3{
+    font-size: 34px;
+    color: yellow;
+}
+
+span4{
+    font-size: 36px;
+    color: green;
+}
+
+span5{
+    font-size: 38px;
+    color: rgb(52, 52, 218);
+}
+
+span6{
+    font-size: 40px;
+    color: purple;
+}
+
+h1{
+text-align: center;
+}
+
+.imp5 ,.im9 ,.imp10{
+    background-color: lightblue;
+}
+
+.imp10{
+    margin-left: 15px;
+}
+
+.imp4:hover ,.imp5:hover ,.imp6:hover ,.imp7:hover ,.imp8:hover ,.imp9:hover ,.imp10:hover{
+    transform: rotate(360deg);
+}
+
+.imp4 ,.imp5 ,.imp6 ,.imp7 ,.imp8,.imp9 ,.imp10{
+    transition:transform .7s ease-in-out;
 }
