@@ -1,27 +1,51 @@
-.first{
+nav{
     padding: 20px;
     margin-right: 5px;
  padding-left: 905px;
 }
 
-.first a{
+nav a{
     text-decoration: none;
     font-size: 20px;
     margin-right:20px;
 }
-.imp2{
-    display: flex;
 
-}
 
 .menu{
     color:green;
 }
 
-.myname{
-    font-size: 20px;
-    color: rgb(4, 2, 0);
-}
 body{
     background-color:  lightblue;
 }
+
+.sub{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+  
+}
+.imp1{
+    width: 200px;
+    border: 20px solid red;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.imp2{
+    width: 200px;
+    border: 20px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+.line{
+    width: 100px;
+    color: black;
+}
+
+.head1{
+    margin-bottom:30px ;
+}
+
