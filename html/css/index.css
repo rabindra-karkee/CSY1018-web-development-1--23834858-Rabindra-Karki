@@ -1,3 +1,4 @@
+/* the starting of nav */
 nav {
     list-style: none;
     display: flex;
@@ -17,17 +18,19 @@ nav ul li{
     padding: 30px;
     margin-right: 20px;
 }
+.Home {
+    color: green;
+    text-decoration: none;
+}
 
 
-
+/* styling the content */
 .myname {
     font-size: 20px;
     color: rgb(4, 2, 0);
 }
 
-body {
-    background-color: lightblue;
-}
+
 
 .intro:hover {
     color: rgb(30, 53, 227);
@@ -36,16 +39,15 @@ body {
 .intro {
     font-size: 40px;
 }
-
-.Home {
-    color: green;
-    text-decoration: none;
+/* styling the color of body */
+body {
+    background-color: lightblue;
 }
 
 
-/* Example media query for smaller screen sizes */
+/*  making the responsive */
 @media only screen and (max-width: 768px) {
-    /* Adjust the layout for smaller screen sizes */
+    /* Adjusting the layout for smaller screen sizes */
  .menu-bar2 {
       display: none;
       background-color: rgb(171, 171, 171);
@@ -54,7 +56,7 @@ body {
     .imp {
       display: flex;
     }
-    /* Add CSS styles for the hamburger menu */
+    /* Addiing CSS styles for the hamburger menu */
    #toogle-box:checked ~ .menu-bar2 {
       display:flex;
       flex-direction: column;
@@ -72,6 +74,7 @@ body {
     display: none;
   }
   
+  /* makiing responsive for min-width */
 @media only screen and (min-width:767px) {
     .imp{
         display: none;

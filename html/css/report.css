@@ -1,18 +1,26 @@
-nav{
-    padding: 20px;
-    margin-right: 5px;
- padding-left: 905px;
-}
-
-nav a{
-    text-decoration: none;
+nav {
+    list-style: none;
+    display: flex;
     font-size: 20px;
-    margin-right:20px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+}
 
-.menu{
-    color:green;
+.Home {
+    color: green;
+    text-decoration: none;
 }
 
 body{
@@ -21,31 +29,101 @@ body{
 
 .sub{
     display: grid;
-    grid-template-columns: repeat(auto-fit,20rem);
+    grid-template-columns: repeat(auto-fit,40rem);
     justify-content: center;
   
 }
 .imp1{
-    width: 200px;
-    border: 20px solid red;
+    font-size: 20px;
     padding: 20px;
     margin: 20px;
+    text-align: justify;
 
 }
 
 .imp2{
-    width: 200px;
-    border: 20px solid red;
+    font-size: 20px;
     padding: 20px;
     margin: 20px;
+    text-align: justify;
 }
 
 .line{
-    width: 100px;
-    color: black;
+    width: 500px;
+    margin-right: 100px;
 }
 
 .head1{
     margin-bottom:30px ;
 }
 
+.imp3{
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.codes{
+ padding: 20px;
+ margin: 20px;
+}
+
+.code1 img{
+    width: 500px;
+}
+
+/* Example media query for smaller screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Adjust the layout for smaller screen sizes */
+ .menu-bar2 {
+      display: none;
+      background-color: rgb(171, 171, 171);
+      width: 215%;
+    }
+    .imp {
+      display: flex;
+    }
+    /* Add CSS styles for the hamburger menu */
+   #toogle-box:checked ~ .menu-bar2 {
+      display:flex;
+      flex-direction: column;
+     left: 0;
+    }
+   
+    .head1{
+        font-size: 20px;
+      margin-left: 100px;
+    }
+
+    .exp{
+        margin-left: 100px;
+      align-items: center;
+      margin-right: 100px;
+    }
+    .imp1{
+        max-width: 800px;
+    }
+.code1{
+    margin-left: 140px;
+    margin-right: 20px;
+}
+.code1 img{
+    width: 373px;
+}
+
+.line{
+    width: 300px;
+}
+
+  }
+  
+  #toogle-box{
+    display: none;
+  }
+  
+@media only screen and (min-width:767px) {
+    .imp{
+        display: none;
+    }
+}
