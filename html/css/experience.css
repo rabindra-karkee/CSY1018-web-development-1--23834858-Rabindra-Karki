@@ -1,29 +1,35 @@
-nav{
-    padding: 20px;
-    margin-right: 5px;
-    padding-left: 905px;
-}
-
-nav a{
-    text-decoration: none;
-    font-size: 20px;
-    margin-right:20px;
-}
-.imp2{
+nav {
+    list-style: none;
     display: flex;
-
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.menu{
-    color:green;
+nav ul li a{
+    text-decoration: none;
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.Home {
+    color: green;
+    text-decoration: none;
+}
+
 
 body{
     background-color:  lightblue;
 }
 
 .head{
-    margin-left: 300px;
+  
     font-size: 100px;
     font-family: 'Inter', sans-serif;
     overflow: hidden;
@@ -57,4 +63,88 @@ body{
     padding-right: 60px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
+}
+
+.edu{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 550px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.edu  li{
+    font-size: 20px;
+}
+
+.edu h1{
+    text-align: center;
+}
+
+.interest{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 550px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.interest li{
+    font-size: 20px;
+}
+
+.interest h1{
+    text-align: center;
+}
+
+/* Example media query for smaller screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Adjust the layout for smaller screen sizes */
+ .menu-bar2 {
+      display: none;
+      background-color: rgb(171, 171, 171);
+      width: 215%;
+    }
+    .imp {
+      display: flex;
+    }
+    /* Add CSS styles for the hamburger menu */
+   #toogle-box:checked ~ .menu-bar2 {
+      display:flex;
+      flex-direction: column;
+     left: 0;
+    }
+    .head {
+        font-size: 30px;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing steps(200) 3s;
+    }
+    .bmp , .imp7 ,.imp10{
+        width: 38%;
+        height:100px;
+        margin:0;
+    }
+    .imp5 ,.imp8 ,.imp11{
+        font-size: 10px;
+        display:inline;
+        margin: 0px;
+        padding: 0;
+        position: relative;
+        text-align: center;
+    }
+    .edu ,.interest {
+        width: 342px;
+    }
+    
+  }
+  
+  #toogle-box{
+    display: none;
+  }
+  
+@media only screen and (min-width:767px) {
+    .imp{
+        display: none;
+    }
 }

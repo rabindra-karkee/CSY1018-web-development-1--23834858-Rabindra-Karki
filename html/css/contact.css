@@ -1,18 +1,27 @@
-nav{
-    padding: 20px;
-    margin-right: 5px;
- padding-left: 905px;
-}
-
-nav a{
-    text-decoration: none;
+nav {
+    list-style: none;
+    display: flex;
     font-size: 20px;
-    margin-right:20px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.menu{
-    color:green;
+nav ul li a{
+    text-decoration: none;
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+}
+.Home {
+    color: green;
+    text-decoration: none;
+}
+
 body{
     background-color:  lightblue;
 }
@@ -70,7 +79,7 @@ body{
 }
 
 .imp2{
-    padding-left: 450px;
+    padding-left: 350px;
     padding-top: 200px;
 }
 
@@ -114,4 +123,67 @@ body{
     background-color: whitesmoke;
     color: rgb(44, 101, 121);
 
+}
+#box{
+    display: none;
+}
+
+.imp{
+    display: none;
+
+}
+ .first{
+    list-style: none;
+    padding-left: 800px;
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+ }
+/* Example media query for smaller screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Adjust the layout for smaller screen sizes */
+ .menu-bar2 {
+      display: none;
+      background-color: rgb(171, 171, 171);
+      width: 200%;
+    }
+    .imp {
+      display: flex;
+    }
+    /* Add CSS styles for the hamburger menu */
+   #toogle-box:checked ~ .menu-bar2 {
+      display:flex;
+      flex-direction: column;
+     left: 0;
+    }
+    .imp0{
+        display: flex;
+        flex-direction: column;
+    }
+    .imp2{
+     padding: 0;
+     margin-top: 120px;
+    }
+
+    .fb{
+        padding: 0;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        width: 256px;
+    }
+  }
+  
+  #toogle-box{
+    display: none;
+  }
+  
+@media only screen and (min-width:767px) {
+    .imp{
+        display: none;
+    }
 }
