@@ -1,3 +1,4 @@
+/* styling the nav bar */
 nav {
     list-style: none;
     display: flex;
@@ -22,10 +23,11 @@ nav ul li{
     color: green;
     text-decoration: none;
 }
+/* ading the background color to the page */
 body{
    background-color:lightblue 
 }
-
+/* making the image fitted in the screen */
 .imp4 ,.imp5 ,.imp6{
     margin-top: 40px;
 }
@@ -47,34 +49,34 @@ body{
 .imp5{
     margin-left: 23px;
 }
-
+/* aading the color in span */
 span{
     color: gold;
 }
-
+/* making the heading in the center */
 h1{
 text-align: center;
 }
-
+/* making the background color behind the images */
 .imp5 ,.im9 ,.imp10{
     background-color: lightblue;
 }
-
+/* making the image in  */
 .imp10{
     margin-left: 15px;
 }
-
+/* aading transform in the iamges */
 .imp4:hover ,.imp5:hover ,.imp6:hover ,.imp7:hover ,.imp8:hover ,.imp9:hover ,.imp10:hover{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
 }
-
+/* adding the transition in the images */
 .imp4 ,.imp5 ,.imp6 ,.imp7 ,.imp8,.imp9 ,.imp10{
     transition:transform .7s ease-in-out;
 }
 
-/* Example media query for smaller screen sizes */
+/*  media query for mobile screen sizes */
 @media only screen and (max-width: 768px) {
-    /* Adjust the layout for smaller screen sizes */
+    /* Adjusting the layout for smaller screen sizes */
  .menu-bar2 {
       display: none;
       background-color: rgb(171, 171, 171);
@@ -83,7 +85,7 @@ text-align: center;
     .imp {
       display: flex;
     }
-    /* Add CSS styles for the hamburger menu */
+    /*  CSS styles for the hamburger menu */
    #toogle-box:checked ~ .menu-bar2 {
       display:flex;
       flex-direction: column;
@@ -101,7 +103,8 @@ text-align: center;
   #toogle-box{
     display: none;
   }
-  
+  /* aaplying the media query for min-width 767px
+  so that the hamburgrer doesnot show in big screen */
 @media only screen and (min-width:767px) {
     .imp{
         display: none;

@@ -1,3 +1,4 @@
+/* styling the nav bar */
 nav {
     list-style: none;
     display: flex;
@@ -28,6 +29,7 @@ body{
     background-color:  lightblue;
 }
 
+/* adding animation */
 .head{
   
     font-size: 100px;
@@ -36,12 +38,12 @@ body{
     white-space: nowrap;
     animation: typing steps(200) 3s;
 }
-
+/* adding key frames */
 @keyframes typing {
     from { width: 0px }
     to { width: 1000px }
   }
-
+/* styling the images */
 .bmp ,.imp10{
     margin-left: 30px;
     margin-top: 35px;
@@ -64,7 +66,7 @@ body{
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
-
+/* styling the graduation and interest section */
 .edu{
     border: 5px solid black;
     border-radius: 10px;
@@ -96,9 +98,9 @@ body{
     text-align: center;
 }
 
-/* Example media query for smaller screen sizes */
+/* media query for mobile view*/
 @media only screen and (max-width: 768px) {
-    /* Adjust the layout for smaller screen sizes */
+    /* Adjusting the layout for mobile screen sizes */
  .menu-bar2 {
       display: none;
       background-color: rgb(171, 171, 171);
@@ -107,7 +109,7 @@ body{
     .imp {
       display: flex;
     }
-    /* Add CSS styles for the hamburger menu */
+    /*CSS styles for the hamburger menu */
    #toogle-box:checked ~ .menu-bar2 {
       display:flex;
       flex-direction: column;
@@ -142,7 +144,8 @@ body{
   #toogle-box{
     display: none;
   }
-  
+  /*  aaplying the media query for min-width 767px
+  so that the hamburgrer doesnot show in big screen */
 @media only screen and (min-width:767px) {
     .imp{
         display: none;

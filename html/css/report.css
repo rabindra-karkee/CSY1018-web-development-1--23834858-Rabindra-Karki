@@ -1,3 +1,4 @@
+/* styling the nav bar */
 nav {
     list-style: none;
     display: flex;
@@ -22,17 +23,18 @@ nav ul li{
     color: green;
     text-decoration: none;
 }
-
+/* aading background color to the page */
 body{
     background-color:  lightblue;
 }
-
+/* adding the grid in the whole content or  page */
 .sub{
     display: grid;
     grid-template-columns: repeat(auto-fit,40rem);
     justify-content: center;
   
 }
+/* adjusting the content */
 .imp1{
     font-size: 20px;
     padding: 20px;
@@ -47,23 +49,23 @@ body{
     margin: 20px;
     text-align: justify;
 }
-
+/* adjusting the hr line */
 .line{
     width: 500px;
     margin-right: 100px;
 }
-
+/* adjusting the content */
 .head1{
     margin-bottom:30px ;
 }
-
+/* adjusting the content */
 .imp3{
     font-size: 20px;
     padding: 20px;
     margin: 20px;
     text-align: justify;
 }
-
+/* adjusting the screenshots */
 .codes{
  padding: 20px;
  margin: 20px;
@@ -73,9 +75,9 @@ body{
     width: 500px;
 }
 
-/* Example media query for smaller screen sizes */
+/* media query for mobile screen sizes */
 @media only screen and (max-width: 768px) {
-    /* Adjust the layout for smaller screen sizes */
+    /* Adjusting the layout for smaller screen sizes */
  .menu-bar2 {
       display: none;
       background-color: rgb(171, 171, 171);
@@ -84,13 +86,13 @@ body{
     .imp {
       display: flex;
     }
-    /* Add CSS styles for the hamburger menu */
+    /* CSS styles for the hamburger menu */
    #toogle-box:checked ~ .menu-bar2 {
       display:flex;
       flex-direction: column;
      left: 0;
     }
-   
+   /*css for the content  */
     .head1{
         font-size: 20px;
       margin-left: 100px;
@@ -121,7 +123,8 @@ body{
   #toogle-box{
     display: none;
   }
-  
+  /* *  aaplying the media query for min-width 767px
+  so that the hamburgrer doesnot show in big scree */
 @media only screen and (min-width:767px) {
     .imp{
         display: none;
